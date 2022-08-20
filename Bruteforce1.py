@@ -79,10 +79,10 @@ else:
 while True:
     os.system("figlet -f small Brute-Force")
     motion(warn)
-    Usr= raw_input(bcl+"Enter Username =>>TONMOY ")
+    Usr= raw_input(bcl+"Enter Username =>> TONMOY ")
     if Usr==User:
         motion(gcl+"\nCorrect User\n")
-        psd= raw_input(ycl+"Enter Password =>>TONMOY-TY ")
+        psd= raw_input(ycl+"Enter Password =>> TONMOY-TY ")
         if psd == Pwd:
             motion(gcl+"\nSuccessfully Logged In")
             break
